@@ -553,3 +553,27 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+@media (min-width: 320px) {
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .\32xl\:flex {
+    display: flex;
+  }
+}
